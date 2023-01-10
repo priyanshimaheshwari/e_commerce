@@ -6,7 +6,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     
   return (
-    <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4 h-20'>
+    <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4 h-20 bg-pink-200'>
         <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
           <AiOutlineMenu size={30} />
         </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
             </ul>
         
         <div className='flex justify-between'>
-        <AiOutlineSearch size={25} />
+        <AiOutlineSearch size={25} className='bg-white '/>
         <input type='text' placeholder='Search Product' />
         <button><BsFillPersonFill size={25} /></button>
         <button><AiFillHeart size={25}/></button>
@@ -44,8 +44,8 @@ const Navbar = () => {
           className='absolute right-4 top-4 cursor-pointer'
         />
           <nav>
-          <ul className='flex flex-col p-4'>
-              <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Home</li></button>
+          <ul className='flex flex-col p-10'>
+              <button><li className='text-xl py-2 hover:bg-gray-500 hover:text-white rounded-xl'>Home</li></button>
               <button className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Shop</li></button>
               <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Blog</li></button>
               <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>About</li></button>
