@@ -4,12 +4,12 @@ import {  AiOutlineSearch,AiFillHeart } from 'react-icons/ai';
 import {BsFillPersonFill,BsFillCartFill} from 'react-icons/bs'
 const Navbar = () => {
   return (
-    <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
+    <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4 h-20'>
         <div className='text-3xl font-bold text-blue-300'>
            <h1>BUY ME</h1>
         </div>
         
-        <ul className='flex justify-between '>
+        <ul className='hidden md:flex'>
                 <button><li className='px-8'>Home</li></button>
                 <button><li className='px-8'>
                     shop</li></button>
