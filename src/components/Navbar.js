@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {  AiOutlineSearch,AiFillHeart,AiOutlineMenu,AiOutlineClose } from 'react-icons/ai';
+import {AiFillHeart,AiOutlineMenu,AiOutlineClose } from 'react-icons/ai';
 import {BsFillPersonFill,BsFillCartFill} from 'react-icons/bs'
+import{BiSearch} from 'react-icons/bi'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -24,7 +25,7 @@ const Navbar = () => {
             </ul>
         
         <div className='flex justify-between'>
-        <AiOutlineSearch size={25} className='bg-white '/>
+        <BiSearch size={25} className='bg-white'/>
         <input type='text' placeholder='Search Product' />
         <button><BsFillPersonFill size={25} /></button>
         <button><AiFillHeart size={25}/></button>
