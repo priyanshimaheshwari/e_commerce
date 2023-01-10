@@ -15,7 +15,7 @@ const sliderData = [
         url:'https://images.unsplash.com/photo-1603252109303-2751441dd157?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1lbiUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60'
     },
     {
-        url:''
+        url:'https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60'
     },
   ];
 
