@@ -45,11 +45,11 @@ const Navbar = () => {
         />
           <nav>
           <ul className='flex flex-col p-4'>
-              <button><li className=''>Home</li></button>
-              <button><li>Shop</li></button>
-              <button><li>Blog</li></button>
-              <button><li>About</li></button>
-              <button><li>Contact</li></button>
+              <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Home</li></button>
+              <button className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Shop</li></button>
+              <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Blog</li></button>
+              <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>About</li></button>
+              <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Contact</li></button>
           </ul>
           </nav>
       </div>
