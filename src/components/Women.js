@@ -2,8 +2,8 @@ import React from 'react'
 
 const Women = () => {
     return (
-        <div>
-            <div className='bg-pink-100 w-full h-[55px] font-bold text-center text-4xl '>
+        <div className='py-4'>
+            <div className='bg-violet-200 w-full h-[55px] font-bold text-center text-4xl '>
                 
                 Glam goals for her
             </div>
