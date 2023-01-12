@@ -20,8 +20,8 @@ const Category = () => {
           <option>Accessories</option>
           <option>Winter wear</option></select></div>
         
-        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><h1 className='font-bold pl-10'>Grocery</h1></div>
-        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><h1 className='font-bold pl-10'>Mobiles</h1></div>
+        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative'><option>Mobiles</option></select></div>
+        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative'><option>Mobiles</option></select></div>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative '>
           <option>Electronics</option>
           <option>Audio</option>
