@@ -20,7 +20,7 @@ const Category = () => {
           <option>Winter wear</option></select></div>
         
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative px-8'><option>Grocery</option></select></div>
-        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative px-6'><option>Mobiles</option></select></div>
+        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative px-8'><option>Mobiles</option></select></div>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative '>
           <option>Electronics</option>
           <option>Audio</option>
