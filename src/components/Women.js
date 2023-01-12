@@ -5,7 +5,7 @@ const Women = () => {
         <div>
             <div className='bg-pink-100 w-full h-[55px] font-bold text-center text-4xl '>
                 
-                Fashion Hacks for him
+                Glam goals for her
             </div>
             <div className=''>
                 <img className='absolute w-full h-[300px] py-1 object-cover  mix-blend-overlay opacity-80' src='https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
