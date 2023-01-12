@@ -6,7 +6,8 @@ const Category = () => {
         <img className='absolute w-full h-[225px] py-1 object-cover  mix-blend-overlay opacity-40' src='https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
         
         <div className='flex justify-between py-4 px-10 '>
-        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/2672979/pexels-photo-2672979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/'/><select>
+        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/2672979/pexels-photo-2672979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/'/>
+        <label>Fashion</label><select>
           <option>Fashion</option>
           <option>Men's Bottom Wear</option>
           <option>Men's Top Wear</option>
