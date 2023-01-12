@@ -35,7 +35,7 @@ const Hero = () => {
     };
   
     return (
-      <div className='max-w-[1240px] mx-auto px-4 py-5 relative flex justify-center itmes-center'>
+      <div className='w-full mx-auto px-4 py-5 relative flex justify-center itmes-center'>
         <BsArrowLeftSquareFill
           onClick={prevSlide}
           className='absolute top-[50%] text-3xl text-black cursor-pointer left-8'
