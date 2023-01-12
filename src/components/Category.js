@@ -33,7 +33,17 @@ const Category = () => {
           <option>Smart Wear</option>
           <option>Personal and Health Care</option>
           <option>Storage</option></select></div>
-        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><h1 className='font-bold pl-12'>Home</h1></div>
+        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative '>
+          <option>Home</option>
+          <option>Bedroom furniture</option>
+          <option>Kitchen and dinning</option>
+          <option>Cleaning and bath</option>
+          <option>Kid furniture</option>
+          <option>Pet and gardening</option>
+          <option>Lightings and electrics</option>
+          <option>Home decor</option>
+          <option>Tool and utility</option>
+          <option>Work space furniture</option></select></div>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/1450903/pexels-photo-1450903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><h1 className='font-bold pl-8'>Appliances</h1></div>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><h1 className='font-bold pl-14'>Travel</h1></div>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/14866348/pexels-photo-14866348.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' alt='/' /><h1 className='font-bold pl-3'>Toys,beauty and more</h1>
