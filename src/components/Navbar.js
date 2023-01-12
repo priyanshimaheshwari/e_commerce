@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {AiFillHeart,AiOutlineMenu,AiOutlineClose } from 'react-icons/ai';
+import {AiFillHeart,AiOutlineMenu,AiOutlineClose} from 'react-icons/ai';
 import {BsFillPersonFill,BsFillCartFill} from 'react-icons/bs'
 import{BiSearch} from 'react-icons/bi'
 
