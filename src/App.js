@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import Kid from './components/Kid'
 import Men from './components/Men'
 import Navbar from './components/Navbar'
-import Shoe from './components/Shoe'
+import Finaltouch from './components/Finaltouch'
 import Women from './components/Women'
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
       <Men />
       <Women />
       <Kid />
-      <Shoe />
+      <Finaltouch />
       <Electronics />
     </div>
   )
