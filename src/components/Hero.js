@@ -20,6 +20,7 @@ const sliderData = [
     {
         url:'https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60'
     },
+    
   ];
 
 const Hero = () => {
@@ -47,7 +48,7 @@ const Hero = () => {
         {sliderData.map((item, index) => (
           <div className={index === slide ? 'opacity-100' : 'opacity-0'}>
             {index === slide && (
-              <img className='w-full rounded-md' src={item.url} alt='/' />
+              <img className='w-[1500px] h-[600px] rounded-md' src={item.url} alt='/' />
             )}
           </div>
         ))}
