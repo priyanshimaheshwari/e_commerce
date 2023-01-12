@@ -5,7 +5,7 @@ const Kid = () => {
         <div>
             <div className='bg-yellow-100 w-full h-[55px] font-bold text-center text-4xl '>
                 
-               Kid's fashion fista
+               Kid's fashion fiesta
             </div>
             <div className=''>
                 <img className='absolute w-full h-[300px] py-1 object-cover  mix-blend-overlay opacity-80' src='https://images.pexels.com/photos/35857/amazing-beautiful-breathtaking-clouds.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
