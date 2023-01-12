@@ -46,7 +46,16 @@ const Category = () => {
           <option>Work space furniture</option></select></div>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/1450903/pexels-photo-1450903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative'><option>Appliances</option></select></div>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative'><option>Travel</option></select></div>
-        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/14866348/pexels-photo-14866348.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' alt='/' /><h1 className='font-bold pl-3'>Toys,beauty and more</h1>
+        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/14866348/pexels-photo-14866348.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' alt='/' /><select className='relative '>
+          <option>Beauty and personal care</option>
+          <option>Food and drinks</option>
+          <option>Music</option>
+          <option>Books</option>
+          <option>Baby care</option>
+          <option>stationary</option>
+          <option>Sports and fitness</option>
+          <option>Safety and Hygiene essentials</option>
+          </select>
         </div>
         </div>
         </div>
