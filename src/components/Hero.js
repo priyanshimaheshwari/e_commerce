@@ -39,16 +39,16 @@ const Hero = () => {
       <div className='w-full mx-auto px-4 py-5 relative flex justify-center itmes-center'>
         <BsArrowLeftSquareFill
           onClick={prevSlide}
-          className='absolute top-[50%] text-3xl text-black cursor-pointer left-8'
+          className='absolute top-[50%] text-3xl text-white cursor-pointer left-8'
         />
         <BsArrowRightSquareFill
           onClick={nextSlide}
-          className='absolute top-[50%] text-3xl text-black cursor-pointer right-8'
+          className='absolute top-[50%] text-3xl text-white cursor-pointer right-8'
         />
         {sliderData.map((item, index) => (
           <div className={index === slide ? 'opacity-100' : 'opacity-0'}>
             {index === slide && (
-              <img className='w-[1500px] h-[600px] rounded-md' src={item.url} alt='/' />
+              <img className='w-[1500px] h-[500px] rounded-md' src={item.url} alt='/' />
             )}
           </div>
         ))}
