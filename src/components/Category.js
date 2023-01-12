@@ -9,7 +9,7 @@ const Category = () => {
         <img className='h-[200px] w-[200px]' src='https://images.pexels.com/photos/1306248/pexels-photo-1306248.jpeg?auto=compress&cs=tinysrgb&w=400' alt='/' />
         <img className='h-[200px] w-[200px]' src='https://images.pexels.com/photos/1620760/pexels-photo-1620760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='' />
         <img className='h-[200px] w-[200px]' src='https://images.pexels.com/photos/325527/pexels-photo-325527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
-        <img className='h-20 w-30' src='https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
+        <img className='h-[200px] w-[200px]' src='https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
         <img className='h-20 w-30' src='https://images.pexels.com/photos/4108800/pexels-photo-4108800.jpeg?auto=compress&cs=tinysrgb&w=400' alt='/' />
         </div>
     </div>
