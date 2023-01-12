@@ -7,7 +7,7 @@ const Category = () => {
         
         <div className='flex justify-between py-4 px-10 '>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/2672979/pexels-photo-2672979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/'/>
-        <select >
+        <select className='relative' >
           <option>Fashion</option>
           <option>Men's Bottom Wear</option>
           <option>Men's Top Wear</option>
