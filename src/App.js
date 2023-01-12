@@ -7,8 +7,9 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
       <Category />
+      <Hero />
+      
     </div>
   )
 }
