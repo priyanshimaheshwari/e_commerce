@@ -8,25 +8,24 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay,  Navigation } from "swiper";
 
 export default function Hero() {
     return (
         <div>
             <Swiper
-                spaceBetween={30}
-                centeredSlides={true}
+                spaceBetween={10}
+                centeredSlides={false}
                 autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
+                    delay: 2000,
+                    disableOnInteraction: true,
                 }}
                 pagination={{
                     clickable: true,
                 }}
                 navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
-            >
+                modules={[Autoplay, Navigation]}
+                className="mySwiper">
                 <SwiperSlide>
                     <img
                         className="object-fill w-full h-96"
