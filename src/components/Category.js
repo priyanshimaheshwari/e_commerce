@@ -2,7 +2,7 @@ import React from 'react'
 
 const Category = () => {
   return (
-    <div>
+    <div className='pb-5'>
         <img className='absolute w-full h-[225px] py-1 object-cover  mix-blend-overlay opacity-40' src='https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
         
         <div className='flex justify-between py-4 px-10 '>

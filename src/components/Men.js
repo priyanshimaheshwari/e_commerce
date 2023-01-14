@@ -3,7 +3,7 @@ import React from 'react'
 
 const Men = () => {
   return (
-    <div>
+    <div className='py-2'>
         <div className='bg-pink-100 w-full h-[55px] font-bold text-center text-4xl '>
             
             Fashion Hacks for him
