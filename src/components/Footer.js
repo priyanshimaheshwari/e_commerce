@@ -65,10 +65,10 @@ const Footer = () => {
                 </div>
                 <div className='text-white text-2xl py-3 '>Payment Methods</div>
                 <div className='flex '>
-                <div className='text-white text-xl px-10'>Net <span className='bg-white text-indigo-800 '>Banking</span></div>
+                <div className='text-white text-2xl px-10'>Net <span className='bg-white text-indigo-800 '>Banking</span></div>
                 <div className='px-10'><RiVisaFill size={50} className='bg-white'/></div>
                 <div className='px-10'><FaCcMastercard size={50} className='bg-white'/></div>
-                <div className='px-10'><BsCashStack size={50} className='bg-white'/></div>
+                <div className='pl-16'><BsCashStack size={50} className='bg-white'/><p className='text-white'>Cash On Delivery</p></div>
         </div>
         </div>
     </div>
