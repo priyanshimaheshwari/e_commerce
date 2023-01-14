@@ -25,12 +25,14 @@ const Navbar = () => {
             </ul>
         
         <div className='flex justify-between'>
-        <BiSearch size={25} className='bg-white'/>
+        <BiSearch size={25} className='bg-white h-[50px]'/>
         <input type='text' placeholder='Search Product' />
-        <button><BsFillPersonFill size={25} />Profile</button>
-        <div><button><AiFillHeart size={25}/>Fav</button>
-        <button><BsFillCartFill size={25}/>Cart</button></div>
+        <div id="Profile"> <button><span title="Profile"><BsFillPersonFill size={25} /></span></button></div>
+        <div id="Fav"> <button><span title="Fav"><AiFillHeart size={25}/></span></button></div>
+        <div id="Cart"> <button><span title="Cart"><BsFillCartFill size={25}/></span></button></div>
         
+ 
+
         </div>
 
         {/* Mobile Menu */}

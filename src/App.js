@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Finaltouch from './components/Finaltouch'
 import Women from './components/Women'
 import Winter from './components/Winter'
+import Beauty from './components/Beauty'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Finaltouch />
       <Electronics />
       <Winter />
+      <Beauty />
     </div>
   )
 }
