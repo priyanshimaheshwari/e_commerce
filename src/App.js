@@ -7,6 +7,7 @@ import Men from './components/Men'
 import Navbar from './components/Navbar'
 import Finaltouch from './components/Finaltouch'
 import Women from './components/Women'
+import Winter from './components/Winter'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Kid />
       <Finaltouch />
       <Electronics />
+      <Winter />
     </div>
   )
 }
