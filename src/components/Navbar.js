@@ -27,9 +27,10 @@ const Navbar = () => {
         <div className='flex justify-between'>
         <BiSearch size={25} className='bg-white'/>
         <input type='text' placeholder='Search Product' />
-        <button><BsFillPersonFill size={25} /></button>
-        <button><AiFillHeart size={25}/></button>
-        <button><BsFillCartFill size={25}/></button>
+        <button><BsFillPersonFill size={25} />Profile</button>
+        <div><button><AiFillHeart size={25}/>Fav</button>
+        <button><BsFillCartFill size={25}/>Cart</button></div>
+        
         </div>
 
         {/* Mobile Menu */}
@@ -48,7 +49,7 @@ const Navbar = () => {
           <ul className='flex flex-col p-10'>
               <button><li className='text-xl py-2 hover:bg-gray-500 hover:text-white rounded-xl'>Home</li></button>
               <button className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Shop</li></button>
-              <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Blog</li></button>
+              <button><li className='text-xl py-2  hover:bg-gray-400 hover:text-white rounded-xl'>Blog</li></button>
               <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>About</li></button>
               <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Contact</li></button>
           </ul>
