@@ -9,6 +9,7 @@ import Finaltouch from './components/Finaltouch'
 import Women from './components/Women'
 import Winter from './components/Winter'
 import Beauty from './components/Beauty'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Electronics />
       <Winter />
       <Beauty />
+      <Footer />
     </div>
   )
 }
