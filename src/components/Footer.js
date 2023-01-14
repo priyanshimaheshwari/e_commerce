@@ -6,8 +6,8 @@ import {FaCcMastercard} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div>
-        <div className='py-[20px] flex justify-between px-[40px]'>
+    <div >
+        <div className='py-[20px] flex justify-between px-[40px] '>
             <div><TbExchange size={90} className='pl-5'/>
             <p className=' text-2xl'>Easy Exchange</p></div>
             <div><RiHandHeartFill size={90} className='pl-5'/><p className=' text-2xl'>100% Handpicked</p></div>
@@ -63,6 +63,7 @@ const Footer = () => {
                       </ul>
                 </div>
                 </div>
+                <div className='border border-white '></div>
                 <div className='text-white text-2xl py-3 '>Payment Methods</div>
                 <div className='flex '>
                 <div className='text-white text-2xl px-10'>Net <span className='bg-white text-indigo-800 '>Banking</span></div>
