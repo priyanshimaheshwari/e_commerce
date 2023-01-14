@@ -16,18 +16,18 @@ const Navbar = () => {
         </div>
         
         <ul className='hidden md:flex'>
-                <button><li className='px-8'>Home</li></button>
-                <button><li className='px-8'>
+                <button><li className='px-8 hover:underline'>Home</li></button>
+                <button><li className='px-8 hover:underline'>
                     shop</li></button>
-                <button><li className='px-8'>Blog</li></button>
-                <button><li className='px-10'>About</li></button>
-                <button><li>Contact</li></button>
+                <button><li className='px-8 hover:underline'>Blog</li></button>
+                <button><li className='px-10 hover:underline'>About</li></button>
+                <button><li className=' hover:underline'>Contact</li></button>
             </ul>
         
         <div className='flex justify-between'>
         <BiSearch size={25} className='bg-white h-[50px]'/>
         <input type='text' placeholder='Search Product' />
-        <div id="Profile"> <button><span title="Profile"><BsFillPersonFill size={25} /></span></button></div>
+        <div  id="Profile"> <button><span title="Profile"><BsFillPersonFill size={25} /></span></button></div>
         <div id="Fav"> <button><span title="Fav"><AiFillHeart size={25}/></span></button></div>
         <div id="Cart"> <button><span title="Cart"><BsFillCartFill size={25}/></span></button></div>
         
@@ -51,7 +51,7 @@ const Navbar = () => {
           <ul className='flex flex-col p-10'>
               <button><li className='text-xl py-2 hover:bg-gray-500 hover:text-white rounded-xl'>Home</li></button>
               <button className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Shop</li></button>
-              <button><li className='text-xl py-2  hover:bg-gray-400 hover:text-white rounded-xl'>Blog</li></button>
+              <button><li className='text-xl py-2  hover:bg-gray-400 hover:text-white rounded-xl '>Blog</li></button>
               <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>About</li></button>
               <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Contact</li></button>
           </ul>

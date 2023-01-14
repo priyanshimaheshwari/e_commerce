@@ -55,10 +55,10 @@ const Footer = () => {
 
                 <div><p className='font-bold'>Follow Us</p>
                     <ul className='py-2 '>
-                        <li><button>Facebook</button></li>
-                        <li><button>Instagram</button></li>
-                        <li><button>Twitter</button></li>
-                        <li><button>Pinterest</button></li>
+                        <li className=' hover:underline'><button>Facebook</button></li>
+                        <li className=' hover:underline '><button>Instagram</button></li>
+                        <li className=' hover:underline'><button>Twitter</button></li>
+                        <li className=' hover:underline'><button>Pinterest</button></li>
                         
                       </ul>
                 </div>
