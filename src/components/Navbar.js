@@ -3,6 +3,8 @@ import {AiFillHeart,AiOutlineMenu,AiOutlineClose} from 'react-icons/ai';
 import {BsFillPersonFill,BsFillCartFill} from 'react-icons/bs'
 import{BiSearch} from 'react-icons/bi'
 
+
+
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     
@@ -26,12 +28,20 @@ const Navbar = () => {
         
         <div className='flex justify-between'>
         <BiSearch size={25} className='bg-white'/>
-        <input type='text' placeholder='Search Product' />
-        <button><BsFillPersonFill size={25} />Profile</button>
-        <div><button><AiFillHeart size={25}/>Fav</button>
-        <button><BsFillCartFill size={25}/>Cart</button></div>
-        
+        <input type='text' placeholder='Search Product' /></div>
+<div className='flex justify-between relative'><button><BsFillPersonFill size={25} />Profile</button>
+        <button><AiFillHeart size={25}/>Fav</button>
+        <Tooltip title="Person">
+        <IconButton>
+          <PersonIcon />
+        </IconButton>
+      </Tooltip>
         </div>
+        
+
+
+        
+      
 
         {/* Mobile Menu */}
       {/* Overlay */}
