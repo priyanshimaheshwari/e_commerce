@@ -10,9 +10,13 @@ import Women from './components/Women'
 import Winter from './components/Winter'
 import Beauty from './components/Beauty'
 import Footer from './components/Footer'
+import Dropdown from './components/Dropdown'
 
 
 const App = () => {
+
+  const options=['new','edit','delete'];
+
   return (
     <div>
       <Navbar />
@@ -26,6 +30,7 @@ const App = () => {
       <Winter />
       <Beauty />
       <Footer />
+      <Dropdown options={options}/>
       
     </div>
   )
