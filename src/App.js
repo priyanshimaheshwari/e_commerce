@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Category from './components/Category'
 import Electronics from './components/Electronics'
 import Hero from './components/Hero'
@@ -10,7 +11,10 @@ import Women from './components/Women'
 import Winter from './components/Winter'
 import Beauty from './components/Beauty'
 import Footer from './components/Footer'
-import Dropdown from './components/Dropdown'
+import Grocery from './components/Grocery'
+
+
+
 
 
 const App = () => {
@@ -21,8 +25,16 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <BrowserRouter>
       <Category options1={options1} 
-      options2={options2} />
+      Options2={options2} />
+           <Routes>
+             
+             <Route path='/grocery'element={<Grocery/>} />
+             </Routes>
+             </BrowserRouter>
+      
+      
       <Hero />
       <Men />
       <Women />
@@ -32,7 +44,7 @@ const App = () => {
       <Winter />
       <Beauty />
       <Footer />
-      <Dropdown />
+      
       
     </div>
   )
