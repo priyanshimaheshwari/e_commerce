@@ -10,7 +10,7 @@ import Women from './components/Women'
 import Winter from './components/Winter'
 import Beauty from './components/Beauty'
 import Footer from './components/Footer'
-
+import Dropdown from './components/Dropdown'
 
 
 const App = () => {
@@ -32,7 +32,7 @@ const App = () => {
       <Winter />
       <Beauty />
       <Footer />
-      
+      <Dropdown />
       
     </div>
   )
