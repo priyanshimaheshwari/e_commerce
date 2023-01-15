@@ -10,12 +10,9 @@ import Women from './components/Women'
 import Winter from './components/Winter'
 import Beauty from './components/Beauty'
 import Footer from './components/Footer'
-<<<<<<< HEAD
 import Grocery from './components/Grocery'
 
-=======
-import Dropdown from './components/Dropdown'
->>>>>>> d157a0a825d1a990052fa3460356892f411e21ac
+
 
 
 const App = () => {
@@ -37,11 +34,7 @@ const App = () => {
       <Winter />
       <Beauty />
       <Footer />
-<<<<<<< HEAD
       <Grocery />
-=======
-      <Dropdown />
->>>>>>> d157a0a825d1a990052fa3460356892f411e21ac
       
     </div>
   )
