@@ -1,14 +1,11 @@
 import React, { useState } from 'react'
 
 const Category = ({options1},{options2}) => 
-{const[showOptions1 , setShowOptions1]=useState(false);
+{
+  const[showOptions1 , setShowOptions1]=useState(false);
   const[showOptions2 , setShowOptions2]=useState(false);
-  const handleClick =() =>{
-      setShowOptions1(!showOptions1);
-      setShowOptions2(!showOptions2);
-      
-    
-  };
+  const handleClick =() => {setShowOptions1(!showOptions1);};
+  const electroClick =() =>{setShowOptions2(!showOptions2);};
   
   return (
     <div className='pb-5'>
@@ -23,7 +20,7 @@ const Category = ({options1},{options2}) =>
     onClick={handleClick}
     type="button" class="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100" id="menu-button" aria-expanded="true" aria-haspopup="true">
       Fashion
-<svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+<svg class="-mr-1 ml-2 h-5 w-5"  viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
         <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
       </svg>
     </button>
@@ -44,16 +41,15 @@ const Category = ({options1},{options2}) =>
   </div>
         
         
-        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><button className='relative px-8 bg-white w-30 rounded-xl h-8'>Grocery</button></div>
-        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><button className='relative px-8 bg-white w-30 rounded-xl h-8'>Mobiles</button></div>
+        
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><div >
   <div class="relative inline-block text-left">
-  <div>
+    <div>
     <button 
-    onClick={handleClick}
+    onClick={electroClick}
     type="button" class="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100" id="menu-button" aria-expanded="true" aria-haspopup="true">
       Electronics
-<svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+<svg class="-mr-1 ml-2 h-5 w-5"  viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
         <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
       </svg>
     </button>
@@ -62,9 +58,9 @@ const Category = ({options1},{options2}) =>
 <div class="absolute right-0 z-10 mt-2 w-24 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
     <div class="py-1 pl-4" role="none">
      {options2 &&
-          options2.map((option2)=>(
+          options2.map((options2)=>(
             <a href="#" class="text-gray-700 block  py-2 text-sm hover:bg-slate-300" role="menuitem" tabindex="-1" id="menu-item-0">
-                {option2}
+                {options2}
             </a>
           )) }
 </div>
@@ -72,6 +68,8 @@ const Category = ({options1},{options2}) =>
 </div>
 </div>
 </div>
+<div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><button className='relative px-8 bg-white w-30 rounded-xl h-8'>Grocery</button></div>
+        <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><button className='relative px-8 bg-white w-30 rounded-xl h-8'>Mobiles</button></div>
 
 
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><select className='relative '>
@@ -101,11 +99,8 @@ const Category = ({options1},{options2}) =>
         </div>
         </div>
         
-<<<<<<< HEAD
-=======
         
         
->>>>>>> fbb2f1e07bc296471b3ed9b62215e3496fd597c4
     
   )
                       }
