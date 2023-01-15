@@ -32,7 +32,6 @@ const Dropdown = ({options}) => {
                 {option}
             </a>
           ))
-       
        }
 
       </div>
