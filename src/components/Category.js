@@ -98,10 +98,7 @@ const Category = ({options1},{options2}) =>
         </div>
         </div>
         </div>
-        
-        
-        
-    
+     
   )
                       }
                     

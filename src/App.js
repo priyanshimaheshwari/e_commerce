@@ -10,6 +10,7 @@ import Women from './components/Women'
 import Winter from './components/Winter'
 import Beauty from './components/Beauty'
 import Footer from './components/Footer'
+import Grocery from './components/Grocery'
 
 
 
@@ -22,7 +23,7 @@ const App = () => {
     <div>
       <Navbar />
       <Category options1={options1} 
-      options2={options2} />
+      Options2={options2} />
       <Hero />
       <Men />
       <Women />
@@ -32,7 +33,7 @@ const App = () => {
       <Winter />
       <Beauty />
       <Footer />
-      
+      <Grocery />
       
     </div>
   )
