@@ -4,8 +4,7 @@ const Electronics = () => {
   return (
     <div>
         <div className='bg-pink-200 w-full h-[55px] font-bold text-center text-4xl '>
-            
-           Electronics
+            Electronics
         </div>
         <div className=''>
             <img className='absolute w-full h-[300px] py-1 object-cover  mix-blend-overlay opacity-80' src='https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
