@@ -51,20 +51,20 @@ export default function Hero() {
                     <img
                         className="object-fill w-full h-96"
                         src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVucyUyMGNsb3RoaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
-                        alt="image slide 3"
+                        alt="image slide 4"
                     />
                 </SwiperSlide><SwiperSlide>
                     <img
                         className="object-fill w-full h-96"
                         src="https://images.unsplash.com/photo-1569388330292-79cc1ec67270?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWNjZXNzb3JpZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
-                        alt="image slide 3"
+                        alt="image slide 5"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
                         className="object-fill w-full h-96"
                         src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
-                        alt="image slide 3"
+                        alt="image slide 6"
                     />
                 </SwiperSlide>
                 

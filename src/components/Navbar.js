@@ -7,7 +7,9 @@ import{BiSearch} from 'react-icons/bi'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
+  
     
+
   return (
     <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4 h-20 bg-blue-200'>
         <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
@@ -18,15 +20,16 @@ const Navbar = () => {
         </div>
         
         <ul className='hidden md:flex'>
-                <button><li className='px-8'>Home</li></button>
-                <button><li className='px-8'>
+                <button><li className='px-8 hover:underline '>Home</li></button>
+                <button><li className='px-8 hover:underline'>
                     shop</li></button>
-                <button><li className='px-8'>Blog</li></button>
-                <button><li className='px-10'>About</li></button>
-                <button><li>Contact</li></button>
+                <button><li className='px-8 hover:underline'>Blog</li></button>
+                <button><li className='px-10 hover:underline'>About</li></button>
+                <button><li className=' hover:underline'>Contact</li></button>
             </ul>
         
         <div className='flex justify-between'>
+<<<<<<< HEAD
         <BiSearch size={25} className='bg-white'/>
         <input type='text' placeholder='Search Product' /></div>
 <div className='flex justify-between relative'><button><BsFillPersonFill size={25} />Profile</button>
@@ -36,6 +39,16 @@ const Navbar = () => {
           <PersonIcon />
         </IconButton>
       </Tooltip>
+=======
+        <BiSearch size={25} className='bg-white h-[50px]'/>
+        <input type='text' placeholder='Search Product' />
+        <div  id="Profile"> <button><span title="Profile"><BsFillPersonFill size={25} /></span></button></div>
+        <div id="Fav"> <button><span title="Fav"><AiFillHeart size={25}/></span></button></div>
+        <div id="Cart"> <button><span title="Cart"><BsFillCartFill size={25}/></span></button></div>
+        
+ 
+
+>>>>>>> fbb2f1e07bc296471b3ed9b62215e3496fd597c4
         </div>
         
 
@@ -59,7 +72,7 @@ const Navbar = () => {
           <ul className='flex flex-col p-10'>
               <button><li className='text-xl py-2 hover:bg-gray-500 hover:text-white rounded-xl'>Home</li></button>
               <button className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Shop</li></button>
-              <button><li className='text-xl py-2  hover:bg-gray-400 hover:text-white rounded-xl'>Blog</li></button>
+              <button><li className='text-xl py-2  hover:bg-gray-400 hover:text-white rounded-xl '>Blog</li></button>
               <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>About</li></button>
               <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Contact</li></button>
           </ul>
