@@ -24,19 +24,17 @@ const App = () => {
 
   return (
     <div>
-      <Navbar />
+      
       <BrowserRouter>
-      <Category options1={options1} 
-      Options2={options2} />
+      <Navbar />
+      
+      
            <Routes>
-             
+             <Route path='/' element={<Category options1={options1} 
+      Options2={options2}/>}/>
              <Route path='/grocery'element={<Grocery/>} />
              </Routes>
-             </BrowserRouter>
-      
-      
-      <Hero />
-      <Men />
+             <Hero /><Men />
       <Women />
       <Kid />
       <Finaltouch />
@@ -44,6 +42,11 @@ const App = () => {
       <Winter />
       <Beauty />
       <Footer />
+      
+      
+             </BrowserRouter>
+      
+      
       
       
     </div>
