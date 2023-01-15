@@ -59,7 +59,6 @@ const Category = () => {
         </div>
         </div>
         
-        
     
   )
 }
