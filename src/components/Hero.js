@@ -68,7 +68,6 @@ export default function Hero() {
                     />
                 </SwiperSlide>
                 
-                
             </Swiper>
         </div>
     );
