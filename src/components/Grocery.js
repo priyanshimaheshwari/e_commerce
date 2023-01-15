@@ -12,14 +12,14 @@ const Grocery = () => {
             <div className='rounded-xl relative grid md:grid-cols-2 px-10'>
             <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
-                <p className='fount-bold text-5xl px-2 pt-8'>Oils and Ghee</p>
+                <p className='fount-bold text-5xl px-2 pt-8 '>Oils and Ghee</p>
              </div>
-             <img className='h-[800px]  w-[700px] object-cover pt-6' src='absolute w-[700px] h-[820px] py-5 object-cover pl-10 pt-10   ' src='https://images.pexels.com/photos/8469437/pexels-photo-8469437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+             <img className='h-[800px]  w-[700px] object-cover pt-6' src='absolute w-[700px] h-[820px] py-5 object-cover pl-10 pt-10 shadow-lg hover:scale-105 duration-300' src='https://images.pexels.com/photos/8469437/pexels-photo-8469437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
                  <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>Organic Ranges of daal,cereals and more</p>
              </div>
-             <img className='h-[390px]  w-[700px] object-cover pt-6' src='https://images.pexels.com/photos/1393382/pexels-photo-1393382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='grains' />
+             <img className='h-[390px]  w-[700px] object-cover pt-6 shadow-lg hover:scale-105 duration-300' src='https://images.pexels.com/photos/1393382/pexels-photo-1393382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='grains' />
                  
                  
                  <div className='pt-4 relative'>
@@ -27,7 +27,7 @@ const Grocery = () => {
             <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>Cooking Spices and Masalas</p>
              </div>
-            <img className='h-[390px]  w-[700px] object-cover ' src='https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/'/>
+            <img className='h-[390px]  w-[700px] object-cover shadow-lg hover:scale-105 duration-300' src='https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/'/>
         </div>
                  </div>
              </div>
