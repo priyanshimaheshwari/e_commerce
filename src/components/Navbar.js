@@ -3,6 +3,8 @@ import {AiFillHeart,AiOutlineMenu,AiOutlineClose} from 'react-icons/ai';
 import {BsFillPersonFill,BsFillCartFill} from 'react-icons/bs'
 import{BiSearch} from 'react-icons/bi'
 
+
+
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     
@@ -16,7 +18,7 @@ const Navbar = () => {
         </div>
         
         <ul className='hidden md:flex'>
-                <button><li className='px-8 hover:underline'>Home</li></button>
+                <button><li className='px-8 hover:underline '>Home</li></button>
                 <button><li className='px-8 hover:underline'>
                     shop</li></button>
                 <button><li className='px-8 hover:underline'>Blog</li></button>

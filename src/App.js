@@ -11,6 +11,7 @@ import Winter from './components/Winter'
 import Beauty from './components/Beauty'
 import Footer from './components/Footer'
 
+
 const App = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const App = () => {
       <Winter />
       <Beauty />
       <Footer />
+      
     </div>
   )
 }
