@@ -42,19 +42,19 @@ const Grocery = () => {
             <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>Shampoos</p></div>
-                <img className='h-[400px]  w-[450px] object-cover pt-6'  src='https://images.pexels.com/photos/7262483/pexels-photo-7262483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[450px] object-cover pt-6 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/7262483/pexels-photo-7262483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
                 <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>Oral Care</p></div>
-                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3'  src='https://images.pexels.com/photos/4465125/pexels-photo-4465125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/4465125/pexels-photo-4465125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ' alt='/' /></div>
                 <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>Herbal Products</p></div>
-                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3'  src='https://images.pexels.com/photos/6694216/pexels-photo-6694216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/6694216/pexels-photo-6694216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
             </div>
         </div>
         <div>
-            <img className='absolute w-full h-[80px] py-1 object-cover  mix-blend-overlay opacity-80' src='https://images.pexels.com/photos/6044253/pexels-photo-6044253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
+            <img className='absolute w-full h-[80px] py-1 object-cover  mix-blend-overlay opacity-80 ' src='https://images.pexels.com/photos/6044253/pexels-photo-6044253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />
                <p className='text-white font-bold text-5xl justify-center items-center pl-[600px] pt-3'>Household</p>
         </div>
         <div>
@@ -63,15 +63,15 @@ const Grocery = () => {
             <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>cleaning essentials</p></div>
-                <img className='h-[400px]  w-[450px] object-cover pt-6'  src='https://images.pexels.com/photos/10359237/pexels-photo-10359237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[450px] object-cover pt-6 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/10359237/pexels-photo-10359237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
                 <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>Pooja needs</p></div>
-                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3'  src='https://images.pexels.com/photos/3639806/pexels-photo-3639806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/3639806/pexels-photo-3639806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
                 <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>Detergents</p></div>
-                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3'  src='https://images.pexels.com/photos/5217897/pexels-photo-5217897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/5217897/pexels-photo-5217897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
             </div>
         </div>
         <div>
@@ -84,15 +84,15 @@ const Grocery = () => {
             <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>containerrs and bottles</p></div>
-                <img className='h-[400px]  w-[450px] object-cover pt-6'  src='https://images.pexels.com/photos/13013814/pexels-photo-13013814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[450px] object-cover pt-6 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/13013814/pexels-photo-13013814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
                 <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>kitchen tools</p></div>
-                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3'  src='https://images.pexels.com/photos/6996301/pexels-photo-6996301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/6996301/pexels-photo-6996301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
                 <div className='pt-4 relative'>
                  <div className='absolute    text-white'>
                 <p className='fount-bold text-5xl px-2 pt-8'>Cookware Sets</p></div>
-                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3'  src='https://images.pexels.com/photos/5825374/pexels-photo-5825374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
+                <img className='h-[400px]  w-[500px] object-cover pt-6 pl-3 shadow-lg hover:scale-105 duration-300'  src='https://images.pexels.com/photos/5825374/pexels-photo-5825374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /></div>
             </div>
         </div>
     </div>
