@@ -68,7 +68,7 @@ const Category = ({options1},{options2}) =>
 </div>
 </div>
 </div>
-<div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><button className='relative px-8 bg-white w-30 rounded-xl h-8'>Grocery</button></div>
+<div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><button className='relative px-8 bg-white w-30 rounded-xl h-8'><a href='#grocery'>Grocery</a></button></div>
         <div><img className='h-[150px] w-[150px] rounded-full' src='https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' /><button className='relative px-8 bg-white w-30 rounded-xl h-8'>Mobiles</button></div>
 
 
