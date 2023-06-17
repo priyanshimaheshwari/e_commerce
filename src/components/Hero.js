@@ -17,7 +17,7 @@ export default function Hero() {
                 spaceBetween={10}
                 centeredSlides={false}
                 autoplay={{
-                    delay: 2000,
+                    delay: 1900,
                     disableOnInteraction: true,
                 }}
                 pagination={{
