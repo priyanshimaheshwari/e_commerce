@@ -14,12 +14,12 @@
           </div>
           
           <ul className='hidden md:flex'>
-                  <button><li className='px-8 hover:underline '>Home</li></button>
+                  <button><a href='/'><li className='px-8 hover:underline '>Home</li></a></button>
                   <button><li className='px-8 hover:underline'>
                       shop</li></button>
                   <button><li className='px-8 hover:underline'>Blog</li></button>
                   <button><li className='px-10 hover:underline'>About</li></button>
-                  <button><li className=' hover:underline'>Contact</li></button>
+                  <button><a href='#Footer'><li className=' hover:underline'>Contact</li></a></button>
               </ul>
           
           <div className='flex justify-between'>
@@ -46,11 +46,11 @@
           />
             <nav>
             <ul className='flex flex-col p-10'>
-                <button><li className='text-xl py-2 hover:bg-gray-500 hover:text-white rounded-xl'>Home</li></button>
-                <button className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Shop</li></button>
+                <button><a href='/'><li className='text-xl py-2 hover:bg-gray-500 hover:text-white rounded-xl'>Home</li></a></button>
+                <button className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'><a href=''></a> <li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Shop</li></button>
                 <button><li className='text-xl py-2  hover:bg-gray-400 hover:text-white rounded-xl '>Blog</li></button>
                 <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>About</li></button>
-                <button><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Contact</li></button>
+                <button><a href='#Footer'><li className='text-xl py-2  hover:bg-gray-500 hover:text-white rounded-xl'>Contact</li></a></button>
             </ul>
             </nav>
         </div>

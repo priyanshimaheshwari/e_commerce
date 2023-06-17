@@ -6,7 +6,8 @@ import {FaCcMastercard} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div >
+    <section id ='Footer'>
+      <div >
         <div className='py-[20px] flex justify-between px-[40px] '>
             <div><TbExchange size={90} className='pl-5'/>
             <p className=' text-2xl'>Easy Exchange</p></div>
@@ -73,6 +74,8 @@ const Footer = () => {
         </div>
         </div>
     </div>
+    </section>
+    
   )
 }
 
